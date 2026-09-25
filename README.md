@@ -1,106 +1,109 @@
-# 🤖 PrepGen AI
+# PrepGen AI
 
-### Personalized AI-Powered Interview & Preparation Platform
+## Personalized AI-Powered Interview & Preparation Platform
 
-> **Prepare smarter. Interview better. 🚀**
+PrepGen AI is an AI-powered interview preparation platform designed to help students and job seekers prepare for technical, HR, and behavioral interviews through personalized preparation plans, question practice, mock interviews, and progress tracking.
 
-PrepGen AI is a modern **AI-powered interview preparation platform** designed to help students and job seekers prepare for technical, HR, and behavioral interviews through **personalized preparation plans, question practice, mock interviews, and progress tracking**.
-
-This project is currently developed as a **frontend prototype using React** for **Project Presentation–1**.
+This project is currently developed as a frontend prototype using React for Project Presentation-1.
 
 ---
 
-## ✨ Features
+## Features
 
-* 🎯 **Personalized Preparation** — Create a preparation roadmap based on your career goal and skills.
-* 🧠 **AI Preparation Assistant** — Get a structured interview preparation experience.
-* 💻 **Technical Question Practice** — Practice role-specific technical questions.
-* 🎤 **Mock Interviews** — Simulate an interview environment with multiple questions.
-* 📊 **Progress Analytics** — Track interview readiness, practice progress, and skill performance.
-* 👤 **Career Profile** — Manage your target role, experience, skills, and preparation preferences.
-* ⚙️ **Settings & Preferences** — Customize your preparation experience.
-* 📱 **Responsive UI** — Designed to work across desktop and mobile screen sizes.
-
----
-
-## 🛠️ Tech Stack
-
-| Technology          | Purpose                         |
-| ------------------- | ------------------------------- |
-| ⚛️ **React**        | Frontend UI development         |
-| ⚡ **Vite**          | Fast development and build tool |
-| 🧭 **React Router** | Client-side navigation          |
-| 🌐 **Context API**  | Global state management         |
-| 🎨 **Tailwind CSS** | Responsive UI styling           |
-| ✨ **Lucide React**  | Modern icons                    |
+* Personalized interview preparation
+* Career profile and target role setup
+* AI-powered preparation roadmap
+* Technical and HR question practice
+* Mock interview simulation
+* Interview readiness tracking
+* Progress and performance analytics
+* User preferences and settings
+* Responsive user interface
+* Client-side routing
+* Global state management using Context API
 
 ---
 
-## 📂 Application Routes
+## Tech Stack
+
+| Technology   | Purpose                          |
+| ------------ | -------------------------------- |
+| React        | Frontend UI development          |
+| Vite         | Development and build tool       |
+| React Router | Client-side navigation           |
+| Context API  | Global state management          |
+| Tailwind CSS | UI styling and responsive design |
+| Lucide React | Icon library                     |
+
+---
+
+## Application Routes
 
 ```text
-/                       → Landing Page
-/login                  → User Login
-/signup                 → User Registration
-/dashboard              → Personalized Dashboard
-/profile                → Career Profile
-/preparation            → AI Preparation Roadmap
-/questions              → Interview Question Practice
-/mock-interview         → AI Mock Interview
-/analytics              → Progress & Performance Analytics
-/settings               → User Preferences
+/                       Landing Page
+/login                  User Login
+/signup                 User Registration
+/dashboard              Personalized Dashboard
+/profile                Career Profile
+/preparation            AI Preparation Roadmap
+/questions              Interview Question Practice
+/mock-interview         Mock Interview
+/analytics              Progress and Performance Analytics
+/settings               User Preferences
 ```
 
 ---
 
-## 🏗️ Project Architecture
+## Project Architecture
 
 ```text
 PrepGen AI
-│
+|
 ├── Landing Page
-│
+|
 ├── Authentication
-│   ├── Login
-│   └── Signup
-│
+|   ├── Login
+|   └── Signup
+|
+├── Dashboard
+|
 ├── User Profile
-│
+|
 ├── AI Preparation
-│   └── Personalized Roadmap
-│
+|   └── Personalized Roadmap
+|
 ├── Question Practice
-│   ├── Technical Questions
-│   └── HR Questions
-│
+|   ├── Technical Questions
+|   └── HR Questions
+|
 ├── Mock Interview
-│   └── Interview Simulation
-│
+|   └── Interview Simulation
+|
 ├── Analytics
-│   ├── Readiness Score
-│   ├── Skill Performance
-│   └── Practice Progress
-│
+|   ├── Interview Readiness
+|   ├── Skill Performance
+|   └── Practice Progress
+|
 └── Settings
 ```
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
-### 🏠 Dashboard
+### Dashboard
 
 <p align="center">
   <img src="./screenshot/Screenshot%202026-09-25%20230145.png" width="900" alt="PrepGen AI Dashboard">
 </p>
 
-### 🧠 AI Preparation
+### AI Preparation
 
 <p align="center">
   <img src="./screenshot/Screenshot%202026-09-25%20230212.png" width="900" alt="PrepGen AI Preparation">
 </p>
 
-### 🎤 Mock Interview
+### Mock Interview
 
 <p align="center">
   <img src="./screenshot/Screenshot%202026-09-25%20230240.png" width="900" alt="PrepGen AI Mock Interview">
@@ -108,77 +111,57 @@ PrepGen AI
 
 ---
 
-## 🚀 Getting Started
+## Future Scope
 
-### 1. Clone the repository
+The current version focuses on the frontend prototype. Future versions can include:
 
-```bash
-git clone https://github.com/adityanath123/PrepGuru.git
-```
-
-### 2. Navigate to the project
-
-```bash
-cd PrepGuru
-```
-
-### 3. Install dependencies
-
-```bash
-npm install
-```
-
-### 4. Start the development server
-
-```bash
-npm run dev
-```
-
-Open the local URL shown in your terminal.
+* Real AI-powered interview question generation
+* AI-generated interview feedback
+* Voice-based mock interviews
+* User authentication
+* Backend and database integration
+* Advanced performance analytics
+* AI-powered resume analysis
+* Job-specific preparation plans
+* Company-specific interview preparation
+* Personalized learning recommendations
 
 ---
 
-## 🔮 Future Scope
-
-The current version focuses on the **frontend prototype**. Future versions can include:
-
-* 🤖 Real AI-powered interview questions
-* 💬 AI-generated interview feedback
-* 🎙️ Voice-based mock interviews
-* 🔐 Real user authentication
-* 🗄️ Backend & database integration
-* 📈 Advanced performance analytics
-* 📄 AI-powered resume analysis
-* 🎯 Job-specific preparation plans
-* 🏢 Company-specific interview preparation
-
----
-
-## 🎓 Project Information
+## Project Information
 
 **Project Name:** PrepGen AI
+
+**Project Title:** Personalized AI-Powered Interview & Preparation
+
 **Project Type:** AI-Powered Interview Preparation Platform
-**Current Phase:** Frontend Prototype — Project Presentation–1
+
+**Current Phase:** Frontend Prototype - Project Presentation-1
+
 **Frontend:** React + Vite
+
+**Routing:** React Router
+
 **State Management:** Context API
 
----
-
-## 👨‍💻 Developer
-
-**Adityanath**
-
-> Building PrepGen AI to make interview preparation more personalized, structured, and engaging.
+**Styling:** Tailwind CSS
 
 ---
 
-<p align="center">
-  ⭐ If you find this project interesting, consider giving it a star!
-</p>
+## Developer
 
-<p align="center">
-  <b>PrepGen AI — Prepare Smarter. Interview Better. 🚀</b>
-</p>
+**PrepPulse**
 
 
 
+---
+
+## Project Objective
+
+The primary objective of PrepGen AI is to provide a personalized and structured platform that helps students and job seekers improve their interview preparation through targeted practice, mock interviews, and performance tracking.
+
+---
+
+## License
+
+This project is developed for academic and educational purposes.

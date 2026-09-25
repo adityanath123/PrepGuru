@@ -4,7 +4,7 @@
 
 PrepGen AI is an AI-powered interview preparation platform designed to help students and job seekers prepare for technical, HR, and behavioral interviews through personalized preparation plans, question practice, mock interviews, and progress tracking.
 
-This project is currently developed as a frontend prototype using React for Project Presentation-1.
+
 
 ---
 
